@@ -1,7 +1,7 @@
-package com.winning.ants.core;
+package com.winning.ants.core.base;
 
 /**
- * 上下文
+ * ants上下文
  */
 public class AntsContext {
 

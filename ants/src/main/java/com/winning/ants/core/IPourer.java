@@ -1,2 +1,11 @@
-package com.winning.ants.core;public class IPourer {
+package com.winning.ants.core;
+
+import java.util.List;
+
+/**
+ * 数据灌入
+ */
+public interface IPourer<T , V> extends Lifecycle{
+
+    V pour(List<T> list);
 }

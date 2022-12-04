@@ -50,12 +50,21 @@ public interface ILogger {
      */
     void debug(String format, Object... arguments);
 
+    /**
+     * is the logger instance enabled  info level ?
+     * @return
+     */
     boolean isInfoEnabled();
 
     void info(String msg);
 
     void info(String format, Object... arguments);
 
+
+    /**
+     * is the logger instance enabled  warn level ?
+     * @return
+     */
     boolean isWarnEnabled();
 
 
@@ -63,6 +72,10 @@ public interface ILogger {
 
     void warn(String format, Object... arguments);
 
+    /**
+     * is the logger instance enabled  error level ?
+     * @return
+     */
     boolean isErrorEnabled();
 
     void error(String msg);

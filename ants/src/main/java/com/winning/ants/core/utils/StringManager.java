@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package org.apache.naming;
+package com.winning.ants.core.utils;
 
 import java.text.MessageFormat;
 import java.util.HashMap;
@@ -45,7 +45,7 @@ import java.util.ResourceBundle;
  * @author James Duncan Davidson [duncan@eng.sun.com]
  * @author James Todd [gonzo@eng.sun.com]
  * @author Mel Martinez [mmartinez@g1440.com]
- * @see java.util.ResourceBundle
+ * @see ResourceBundle
  */
 public class StringManager {
 

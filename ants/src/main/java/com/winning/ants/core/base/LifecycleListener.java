@@ -1,4 +1,8 @@
 package com.winning.ants.core.base;
 
-public class LifecycleListener {
+import com.winning.ants.core.LifecycleEvent;
+
+public interface LifecycleListener {
+
+    void fire(LifecycleEvent lifecycleEvent);
 }
