@@ -8,4 +8,12 @@ public enum DbType {
         this.code = code;
         this.driverClassName = driverClassName;
     }
+
+    public int getCode() {
+        return code;
+    }
+
+    public String getDriverClassName() {
+        return driverClassName;
+    }
 }

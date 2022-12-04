@@ -1,4 +1,4 @@
-package com.winning.ants.core.base;
+package com.winning.ants.core;
 
 import com.winning.ants.core.Lifecycle;
 

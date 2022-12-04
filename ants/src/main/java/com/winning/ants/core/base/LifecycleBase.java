@@ -3,6 +3,7 @@ package com.winning.ants.core.base;
 import com.winning.ants.core.Lifecycle;
 import com.winning.ants.core.LifecycleEvent;
 import com.winning.ants.core.LifecycleListener;
+import com.winning.ants.core.LifecycleState;
 import com.winning.ants.core.exception.LifecycleException;
 import com.winning.ants.core.utils.StringManager;
 import com.winning.ants.log.ILogger;
@@ -173,7 +174,6 @@ public abstract class LifecycleBase implements Lifecycle {
             } else {
                 setState(LifecycleState.STOPPING_PREP, null, false);
             }
-
             doStop();
             if (!state.equals(LifecycleState.STOPPING) && !state.equals(LifecycleState.FAILED)) {
                 unPower(Lifecycle.AFTER_STOP_EVENT);
